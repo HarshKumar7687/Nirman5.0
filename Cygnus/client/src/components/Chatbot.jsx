@@ -18,7 +18,7 @@ const Chatbot = () => {
   const messagesEndRef = useRef(null);
   const chatbotRef = useRef(null);
 
-  const apiKey = "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";
+  const apiKey = "";
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
